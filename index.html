@@ -49,7 +49,7 @@
 			}
 		});
 		
-		var site = Backbone.Controller.extend({
+		window.site = Backbone.Controller.extend({
 			 el:		$('body')
 			,routes: {
 						"!:pageName": 'show'
@@ -70,7 +70,7 @@
 				}
 			},
 			show: function(pageName) {
-				var page = pages.get(pageName.toLowerCase());
+				var page = pages.get(pageName);
 				var view = new pageView({model: page});
 				$(this.el).html(view.el);
 			}
