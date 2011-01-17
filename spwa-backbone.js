@@ -37,7 +37,7 @@ $(function(){
 		
 		// This function takes the html from the model, inserts into the view and renders it to the screen:
 		,render: function() {
-			$(this.el).html($(this.model.get('htmlTemplate')).html());
+			$(this.el).html($(this.model.get('htmlTemplate')).html()).attr('id', this.model.get('id'));
 			return this;
 		}
 	});
