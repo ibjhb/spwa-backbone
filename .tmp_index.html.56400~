@@ -1,15 +1,17 @@
  <!DOCTYPE HTML>
 <html>
 <head>
-	<title>Using Backbone.js For SPWA</title>
+	<title>Backbone.js and ColdFusion with Templating</title>
 	<!--- 
 	<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.7/themes/cupertino/jquery-ui.css" type="text/css" rel="stylesheet" />
 	<link href="./css/index.css" type="text/css" rel="stylesheet" />
 	 --->
 	<!--- 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.7/jquery-ui.js"></script>
 	<script type="text/javascript" src="http://documentcloud.github.com/underscore/underscore.js"></script>
 	<script type="text/javascript" src="http://documentcloud.github.com/backbone/backbone.js"></script>
+	<script type="text/javascript" src="https://github.com/cowboy/jquery-misc/raw/master/jquery.ba-serializeobject.min.js"></script>
 	 --->
 	 
 	 
@@ -17,7 +19,10 @@
 	<script type="text/javascript" src="../jsexamples/js/underscore-min.js"></script>
 	<script type="text/javascript" src="../jsexamples/js/backbone-min.js"></script>
 	
-		
+	
+	
+<!---	<script type="text/javascript" src="./js/artist.js"></script>--->
+	
 	<script type='text/javascript'>
 	$(function(){
 			
