@@ -1,0 +1,12 @@
+spwa-backbone is a script written to demonstrate the power of Backbone.js and also provide a simple and quick way
+to make single page web applications.  You could certainly use this script by itself to make quick webpages but 
+most 'applications' are going to have additional code.
+
+To create additional 'pages', just duplicate the script block, make sure the id is 'PAGENAME-template' (where you put your own pagename)
+and then link to the page using a similar convention to the menu above.  The script will automatically load all the 'pages' into Backbone.js
+and watch for hashtag changes.  The only required page is the home-template page, so the application has a 'default'. 
+			
+For more information or examples check out Github at: 
+http://github.com/ibjhb/spwa-backbone/
+or on 
+http://www.coldfusioning.com
