@@ -39,9 +39,6 @@ $(function(){
 			// When 'change' is called, let's render the view:
   			this.model.bind('change', this.render);
 		
-			// Putting the htmlcode into the view
-			// this.htmlCode = this.model.get('htmlCode');
-			
 			// Setting the view into the model:
   			this.model.view = this;
 			// Render out the view (page) to the screen:
