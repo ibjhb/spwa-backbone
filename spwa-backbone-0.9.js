@@ -1,3 +1,16 @@
+/*
+ * spwa-backbone
+ * version 0.9 (01/17/11)
+ * @requires Backbone.js (http://documentcloud.github.com/backbone)
+ * @requires Underscore (http://documentcloud.github.com/underscore)
+ * @requires jQuery (http://jquery.com)
+ *
+ * Copyright (c) 2011 James Brown
+ * Dual licensed under the MIT and GPL licenses:
+ * http://www.opensource.org/licenses/mit-license.php
+ * http://www.gnu.org/licenses/gpl.html
+*/
+
 $(function(){
 	
 	// Define our page object:
