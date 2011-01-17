@@ -6,6 +6,7 @@
 		p{
 			width: 960px;
 		}
+		
 	</style>
 	<!--- 
 	These are for production:
@@ -23,21 +24,23 @@
 	<script type="text/javascript" src="../spwa-backbone-0.9.min.js"></script>
 	
 	<script type="text/template" id="home-template">
-		
-		<a href="#!home">Home</a> |
-		<a href="#!contact">Contact</a> |
-		<a href="#!about">About</a><br />
+		<div class='menu'>
+			<a href="#!home">Home</a> |
+			<a href="#!about">About</a> | 
+			<a href="#!contact">Contact</a>
+		</div>
 		
 		<p>
 			This is our Home Page for the example.  Please use the links above to navigate and for more information.
 		</p>
-		
 	</script>
 	
 	<script type="text/template" id="about-template">
-		<a href="#!home">Home</a> |
-		<a href="#!contact">Contact</a> |
-		<a href="#!about">About</a><br />
+		<div class='menu'>
+			<a href="#!home">Home</a> |
+			<a href="#!about">About</a> | 
+			<a href="#!contact">Contact</a>
+		</div>
 		
 		<p>
 			spwa-backbone is a script written to demonstrate the power of Backbone.js and also provide a simple and quick way
@@ -54,13 +57,14 @@
 		<p>
 			For more information or examples, view the <a href="#!contact">contact</a> page.
 		</p>
-
 	</script>
 	
 	<script type="text/template" id="contact-template">
-		<a href="#!home">Home</a> |
-		<a href="#!contact">Contact</a> |
-		<a href="#!about">About</a><br />
+		<div class='menu'>
+			<a href="#!home">Home</a> |
+			<a href="#!about">About</a> | 
+			<a href="#!contact">Contact</a>
+		</div>
 		
 		<p>
 			For more information or examples check out Github at: 
@@ -68,7 +72,6 @@
 			or on 
 			<a href="http://www.coldfusioning.com">http://www.coldfusioning.com</a>
 		</p>
-
 	</script>
 	
 </head>
