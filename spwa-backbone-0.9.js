@@ -1,6 +1,8 @@
 /*
  * spwa-backbone
  * version 0.9 (01/17/11)
+ * http://github.com/ibjhb/spwa-backbone/
+ * 
  * @requires Backbone.js (http://documentcloud.github.com/backbone)
  * @requires Underscore (http://documentcloud.github.com/underscore)
  * @requires jQuery (http://jquery.com)
