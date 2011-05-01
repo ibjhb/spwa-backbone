@@ -36,7 +36,7 @@ $(function(){
 		,initialize: function(){
 			
 			// Keep render and close bound to "this":
-			_.bindAll(this, "render", "close");
+			_.bindAll(this, "render");
 			
 			// When "change" is called, let's render the view:
   			this.model.bind("change", this.render);
